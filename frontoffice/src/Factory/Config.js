@@ -18,6 +18,11 @@ app.config(function ($routeProvider) {
             "templateUrl" : "Modules/Products/Product.html",
             "route" : "produits",
             "controller": "productController"
+        },{
+            "name" : "Contact",
+            "templateUrl" : "Modules/Contact/Contact.html",
+            "route" : "contact",
+            "controller": "contactController"
         }
 
     ];
